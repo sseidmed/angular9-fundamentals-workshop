@@ -4,7 +4,14 @@
       "id": 1,
       "title": "Angular 9 Fundamentals",
       "description": "Learn the fundamentals of Angular 9",
-      "percentComplete": 26,
+      "percentComplete": 14,
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "title": "JavaScript The Hard Parts",
+      "description": "Advanced topics in JS",
+      "percentComplete": 86,
       "favorite": true
     }
   ]
