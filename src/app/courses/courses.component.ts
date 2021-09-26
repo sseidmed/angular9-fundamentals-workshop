@@ -24,7 +24,7 @@ export class CoursesComponent implements OnInit {
       id: 2,
       title: 'JavaScript The Really REALLY HARD PARTS',
       description: 'Worship Will Sentance',
-      percentComplete: 50,
+      percentComplete: 83,
       favorite: true
     }
   ];
