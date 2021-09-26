@@ -11,6 +11,8 @@ export class CoursesComponent implements OnInit {
   // STEP 02: Add event handler to select course
   // STEP 03: Display raw json of selected course
 
+  selectedCourse = null;
+
   courses = [
     {
       id: 1,
@@ -31,6 +33,36 @@ export class CoursesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.resetSelectedCourse();
+  }
+
+  resetSelectedCourse() {
+    const emptyCourse = {
+      id: null,
+      title: '',
+      description: '',
+      percentComplete: 0,
+      favorite: false
+    }
+
+    this.selectedCourse = emptyCourse
+  }
+
+  selectCourse(item) {
+    this.selectedCourse = item;
+    console.log(this.selectedCourse)
+  }
+
+  saveCourse() {
+    console.log('SAVE COURSE')
+  }
+
+  deleteCourse(id) {
+    console.log("course was deleted", id)
+  }
+
+  cancel() {
+    this.resetSelectedCourse();
   }
 
 }
