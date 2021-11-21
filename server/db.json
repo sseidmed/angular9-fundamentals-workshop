@@ -4,15 +4,15 @@
       "id": 1,
       "title": "Angular 9 Fundamentals",
       "description": "Learn the fundamentals of Angular 9",
-      "percentComplete": 26,
+      "percentComplete": 83,
       "favorite": true
     },
     {
       "id": 2,
       "title": "Functional JavaScript",
       "description": "Brian is a demi-god",
-      "percentComplete": 0,
-      "favorite": false
+      "percentComplete": 17,
+      "favorite": true
     },
     {
       "id": 3,
